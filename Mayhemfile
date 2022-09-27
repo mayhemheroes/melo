@@ -1,0 +1,6 @@
+project: melo
+target: melo-fuzzer
+
+cmds:
+    - cmd: ./melo-fuzzer
+      libfuzzer: true
