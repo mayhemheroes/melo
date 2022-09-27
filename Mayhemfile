@@ -2,7 +2,7 @@ project: melo
 target: melo-fuzzer
 
 testsuite: 
-    - file:///pieces
+    - file://./pieces/
 
 cmds:
     - cmd: ./melo-fuzzer
