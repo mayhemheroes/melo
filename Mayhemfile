@@ -1,6 +1,8 @@
 project: melo
 target: melo-fuzzer
 
+testsuite:file:///corpus
+
 cmds:
     - cmd: ./melo-fuzzer
       libfuzzer: true
