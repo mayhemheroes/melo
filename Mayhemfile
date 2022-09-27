@@ -1,7 +1,8 @@
 project: melo
 target: melo-fuzzer
 
-testsuite: file:///corpus
+testsuite: 
+    - file:///corpus
 
 cmds:
     - cmd: ./melo-fuzzer
