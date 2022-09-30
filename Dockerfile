@@ -9,5 +9,5 @@ RUN cargo build
 
 FROM debian:bookworm
 # COPY --from=builder /melo/fuzz/target/x86_64-unknown-linux-gnu/release/melo-fuzzer /
-COPY --from=builder /melo/debug/melo /
+COPY --from=builder /melo/target/debug/melo /
 COPY --from=builder /melo/pieces /pieces/
