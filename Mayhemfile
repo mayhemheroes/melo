@@ -1,11 +1,11 @@
 project: melo
-target: melo
+target: melo-fuzzer
 
 testsuite: 
     - file://./pieces/
 
-# cmds:
-#     - cmd: ./melo-fuzzer
-#       libfuzzer: true
 cmds:
-    - cmd: ./melo @@
+    - cmd: ./melo-fuzzer
+      libfuzzer: true
+# cmds:
+    # - cmd: ./melo @@
