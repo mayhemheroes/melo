@@ -7,5 +7,3 @@ testsuite:
 cmds:
     - cmd: ./melo-fuzzer
       libfuzzer: true
-# cmds:
-    # - cmd: ./melo @@

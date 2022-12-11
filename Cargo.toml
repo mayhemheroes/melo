@@ -21,7 +21,7 @@ ansi_term = "~0.12.1"
 color-eyre = "~0.6.1"
 lazy_static = "~1.4.0"
 mktemp = { version = "~0.4.1", optional = true }
-sashimi = "~0.1.1"
+sashimi = { path = "../../libs/sashimi" }
 regex = "~1.5.6"
 rimd = "~0.0.1"
 structopt = { version = "~0.3.21", optional = true }
@@ -34,4 +34,3 @@ pretty_assertions = "~0.7.1"
 default = ["cli", "color"]
 cli = ["mktemp", "structopt"]
 color = []
-
