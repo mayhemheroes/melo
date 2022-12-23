@@ -1,0 +1,9 @@
+project: melo
+target: melo-fuzzer
+
+testsuite: 
+    - file://./pieces/
+
+cmds:
+    - cmd: ./melo-fuzzer
+      libfuzzer: true

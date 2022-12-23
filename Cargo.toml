@@ -34,4 +34,3 @@ pretty_assertions = "~0.7.1"
 default = ["cli", "color"]
 cli = ["mktemp", "structopt"]
 color = []
-
